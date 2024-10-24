@@ -9,7 +9,7 @@ import RegisterPage from './page/RegisterPage';
 
 function App() {
   return (
-    <div>
+    <div className='app-background'>
       <MainHeader/>
       <MainPage/>
       {/* <LoginHeader/>

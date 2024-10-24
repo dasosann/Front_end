@@ -1,6 +1,10 @@
 .app-background {
-    background: linear-gradient(to bottom, #ffffff, #e0f7ff); /* 윗부분 하얀색, 아래로 갈수록 연한 파란색 */
-    min-height: 100vh;
+    background: linear-gradient(
+        180deg,
+        rgb(240.66, 240.66, 240.66) 0%,
+        rgb(215.61, 228.69, 240.12) 100%
+      );
+      background-color: rgba(255, 255, 255, 1.0);
 }
 ::placeholder {
     font-family: "Inter";
